@@ -71,6 +71,9 @@ const LivePanel = () => {
       <Row label="Creasing" value={`${creasingPct}%`} percent={creasingPct} />
 
       <div className="mt-2 text-xs text-gray-500">Note: display-only. Data will come from Raspberry Pi.</div>
+      
+      {/* Dieline preview removed here to avoid duplicate previews on the page.
+          The main preview is shown at the top of the Progress page. */}
     </div>
   );
 };
